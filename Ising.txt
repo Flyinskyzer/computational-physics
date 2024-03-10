@@ -9,10 +9,11 @@ function main()
     % 打印二进制表示
     fprintf('十进制数 %d 的10位二进制表示为: %s\n', decimal, binaryStr);
     spin = double(binaryStr) - 48;
+    spin=(spin-0.5).*2;
     M=sum(spin);
     E=0;
     for i=1:9
-        E=E-(1/2)*spin(i)*spin(i+1);
+        E=E+(1/2)*spin(i)*spin(i+1);
     end
     disp('总磁矩')
     disp(M)
