@@ -1,0 +1,35 @@
+matlab程序
+function main()
+    % 输入一个正整数
+    decimal = input('请输入一个正整数：');
+
+    % 调用转换函数将十进制整数转换为指定长度的二进制字符串
+    binaryStr = decimalToPaddedBinary(decimal, 10);
+
+    % 打印二进制表示
+    fprintf('十进制数 %d 的10位二进制表示为: %s\n', decimal, binaryStr);
+    spin = double(binaryStr) - 48;
+    M=sum(spin);
+    E=0;
+    for i=1:9
+        E=E-(1/2)*spin(i)*spin(i+1);
+    end
+    disp('总磁矩')
+    disp(M)
+    disp('哈密顿量')
+    disp(E)
+end
+
+function binaryStr = decimalToPaddedBinary(decimal, length)
+    % 调用 dec2bin 函数将十进制整数转换为二进制字符串
+    originalBinaryStr = dec2bin(decimal);
+    
+    % 计算需要补零的个数
+    zeroPadding = max(0, length - numel(originalBinaryStr));
+    
+    % 在原始二进制字符串前补零
+    paddedBinaryStr = [repmat('0', 1, zeroPadding), originalBinaryStr];
+    
+    % 返回补零后的二进制字符串
+    binaryStr = paddedBinaryStr;
+end
