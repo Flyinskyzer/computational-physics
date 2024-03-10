@@ -1,8 +1,9 @@
 matlab程序
 function main()
     % 输入一个正整数
-    decimal = input('请输入一个正整数：');
-
+    n=input('请输入磁矩数目：');
+    decimal = input('请输入整数：');
+    
     % 调用转换函数将十进制整数转换为指定长度的二进制字符串
     binaryStr = decimalToPaddedBinary(decimal, 10);
 
@@ -12,7 +13,7 @@ function main()
     spin=(spin-0.5).*2;
     M=sum(spin);
     E=0;
-    for i=1:9
+    for i=1:n-1
         E=E+(1/2)*spin(i)*spin(i+1);
     end
     disp('总磁矩')
@@ -34,3 +35,17 @@ function binaryStr = decimalToPaddedBinary(decimal, length)
     % 返回补零后的二进制字符串
     binaryStr = paddedBinaryStr;
 end
+输入
+10 7
+返回磁矩-4
+能量3.5
+
+输入
+10 77
+返回磁矩-2
+能量-0.5
+
+输入
+10 777
+返回磁矩-2
+能量0.5
