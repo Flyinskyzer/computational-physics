@@ -1,3 +1,0 @@
-/home/enrui/CP2024_code/cpp/build/CMakeFiles/main.dir
-/home/enrui/CP2024_code/cpp/build/CMakeFiles/edit_cache.dir
-/home/enrui/CP2024_code/cpp/build/CMakeFiles/rebuild_cache.dir
