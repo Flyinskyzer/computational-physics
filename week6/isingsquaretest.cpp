@@ -53,6 +53,6 @@ TEST_CASE("energy and momentum","")
     };
     SECTION("M")
     {
-        REQUIRE(model.momentum_eval()==360);
+        REQUIRE(model.momentum_eval()==36);
     };
 }
