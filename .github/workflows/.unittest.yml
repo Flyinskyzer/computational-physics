@@ -1,0 +1,31 @@
+name: Unit Tests for Ising simulation # The name (arbitrary) of the workflow
+
+on: # Define which events can cause the workflow to run
+  push:
+
+jobs: # A workflow run is made up of one or more jobs, which run in parallel
+  build: # Job ID
+    name: Build & Tests # Set a name for the job
+    strategy: # Define a matrix of different job configurations (OS's in the following)
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+
+    runs-on: ${{ matrix.os }} # Define the type(s) of machine to run the job on.
+
+    steps: # Sequential steps of the job
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Configure by CMake
+      run: |
+          mkdir build
+          cd build
+          cmake ../Ising
+
+    - name: Build
+      working-directory: build
+      run: make
+
+    - name: Test
+      working-directory: build
+      run: ctest
