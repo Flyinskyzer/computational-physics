@@ -1,0 +1,1 @@
+补充了isingsquare.h的单元测试
