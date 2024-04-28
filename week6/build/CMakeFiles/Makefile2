@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/enrui/CP2024_code/computational-physics/cpp
+CMAKE_SOURCE_DIR = /home/enrui/CP2024_code/computational-physics/week6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/enrui/CP2024_code/computational-physics/cpp/build
+CMAKE_BINARY_DIR = /home/enrui/CP2024_code/computational-physics/week6/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -117,14 +117,14 @@ _deps/catch2-build/src/clean: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.d
 CMakeFiles/a.out.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles --progress-num=99,100 "Built target a.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles --progress-num=99,100 "Built target a.out"
 .PHONY : CMakeFiles/a.out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/a.out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/a.out.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles 0
 .PHONY : CMakeFiles/a.out.dir/rule
 
 # Convenience name for target.
@@ -144,14 +144,14 @@ CMakeFiles/UnitTests_catch2.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.di
 CMakeFiles/UnitTests_catch2.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests_catch2.dir/build.make CMakeFiles/UnitTests_catch2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests_catch2.dir/build.make CMakeFiles/UnitTests_catch2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles --progress-num=97,98 "Built target UnitTests_catch2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles --progress-num=97,98 "Built target UnitTests_catch2"
 .PHONY : CMakeFiles/UnitTests_catch2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/UnitTests_catch2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles 98
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/UnitTests_catch2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles 0
 .PHONY : CMakeFiles/UnitTests_catch2.dir/rule
 
 # Convenience name for target.
@@ -170,14 +170,14 @@ CMakeFiles/UnitTests_catch2.dir/clean:
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94 "Built target Catch2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94 "Built target Catch2"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles 94
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles 94
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles 0
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2.dir/rule
 
 # Convenience name for target.
@@ -196,14 +196,14 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/clean:
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles --progress-num=95,96 "Built target Catch2WithMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles --progress-num=95,96 "Built target Catch2WithMain"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles 96
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enrui/CP2024_code/computational-physics/week6/build/CMakeFiles 0
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/rule
 
 # Convenience name for target.

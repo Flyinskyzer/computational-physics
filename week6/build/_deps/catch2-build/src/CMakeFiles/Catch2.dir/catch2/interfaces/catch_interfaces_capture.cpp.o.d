@@ -1,7 +1,7 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o: \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp \
  /usr/include/stdc-predef.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_capture.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_capture.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -132,7 +132,7 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_
  /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cassert \
  /usr/include/assert.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_result_type.hpp
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_result_type.hpp

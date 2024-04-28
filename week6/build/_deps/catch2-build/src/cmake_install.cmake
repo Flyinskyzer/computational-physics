@@ -1,4 +1,4 @@
-# Install script for directory: /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src
+# Install script for directory: /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,18 +43,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-build/src/libCatch2.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-build/src/libCatch2.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-build/src/libCatch2Main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-build/src/libCatch2Main.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Catch2/Catch2Targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Catch2/Catch2Targets.cmake"
-         "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-build/src/CMakeFiles/Export/lib/cmake/Catch2/Catch2Targets.cmake")
+         "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-build/src/CMakeFiles/Export/lib/cmake/Catch2/Catch2Targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Catch2/Catch2Targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -63,16 +63,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Catch2" TYPE FILE FILES "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-build/src/CMakeFiles/Export/lib/cmake/Catch2/Catch2Targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Catch2" TYPE FILE FILES "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-build/src/CMakeFiles/Export/lib/cmake/Catch2/Catch2Targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Catch2" TYPE FILE FILES "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-build/src/CMakeFiles/Export/lib/cmake/Catch2/Catch2Targets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Catch2" TYPE FILE FILES "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-build/src/CMakeFiles/Export/lib/cmake/Catch2/Catch2Targets-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES
-    "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2"
-    "/home/enrui/CP2024_code/computational-physics/cpp/build/generated-includes/catch2"
+    "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2"
+    "/home/enrui/CP2024_code/computational-physics/week6/build/generated-includes/catch2"
     FILES_MATCHING REGEX "/[^/]*\\.hpp$")
 endif()
 

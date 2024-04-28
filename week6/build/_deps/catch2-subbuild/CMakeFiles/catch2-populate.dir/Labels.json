@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
 		},
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate.rule"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate.rule"
 		},
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate-complete.rule"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate-complete.rule"
 		},
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-build.rule"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-build.rule"
 		},
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-configure.rule"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-configure.rule"
 		},
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-download.rule"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-download.rule"
 		},
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-install.rule"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-install.rule"
 		},
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-mkdir.rule"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-mkdir.rule"
 		},
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-patch.rule"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-patch.rule"
 		},
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-test.rule"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-test.rule"
 		},
 		{
-			"file" : "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-update.rule"
+			"file" : "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-update.rule"
 		}
 	],
 	"target" : 

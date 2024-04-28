@@ -1,8 +1,8 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o: \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/catch_test_spec.cpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/catch_test_spec.cpp \
  /usr/include/stdc-predef.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/catch_test_spec.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/catch_test_spec.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
  /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -16,9 +16,9 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
  /usr/include/c++/11/pstl/pstl_config.h /usr/include/assert.h \
  /usr/include/c++/11/type_traits \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_wildcard_pattern.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_sensitive.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_wildcard_pattern.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_sensitive.hpp \
  /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
@@ -138,17 +138,17 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_string_manip.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_string_manip.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
  /usr/include/c++/11/cstddef \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/catch_test_case_info.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_source_line_info.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_registry.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_testcase.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_name.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_counter.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_preprocessor_remove_parens.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/catch_test_case_info.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_source_line_info.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_registry.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_testcase.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_name.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_counter.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_preprocessor_remove_parens.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \

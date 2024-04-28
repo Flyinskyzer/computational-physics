@@ -1,0 +1,22 @@
+Start testing: Apr 27 17:13 CST
+----------------------------------------------------------
+1/1 Testing: UnitTests
+1/1 Test: UnitTests
+Command: "/home/enrui/CP2024_code/computational-physics/kagome/build/UnitTests_catch2"
+Directory: /home/enrui/CP2024_code/computational-physics/kagome/build
+"UnitTests" start time: Apr 27 17:13 CST
+Output:
+----------------------------------------------------------
+Randomness seeded to: 427949627
+===============================================================================
+All tests passed (48 assertions in 5 test cases)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTests" end time: Apr 27 17:13 CST
+"UnitTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 27 17:13 CST

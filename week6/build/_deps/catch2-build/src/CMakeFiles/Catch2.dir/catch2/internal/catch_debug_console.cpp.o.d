@@ -1,7 +1,7 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o: \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp \
  /usr/include/stdc-predef.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_debug_console.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_debug_console.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -130,11 +130,11 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_android_logwrite.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/generated-includes/catch2/catch_user_config.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_windows_h_proxy.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stdstreams.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_android_logwrite.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/generated-includes/catch2/catch_user_config.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_windows_h_proxy.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stdstreams.hpp \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \

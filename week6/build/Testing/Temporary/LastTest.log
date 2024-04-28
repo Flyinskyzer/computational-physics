@@ -1,22 +1,22 @@
-Start testing: Apr 01 02:46 CST
+Start testing: Apr 27 16:05 CST
 ----------------------------------------------------------
 1/1 Testing: UnitTests
 1/1 Test: UnitTests
-Command: "/home/enrui/CP2024_code/computational-physics/cpp/build/UnitTests_catch2"
-Directory: /home/enrui/CP2024_code/computational-physics/cpp/build
-"UnitTests" start time: Apr 01 02:46 CST
+Command: "/home/enrui/CP2024_code/computational-physics/week6/build/UnitTests_catch2"
+Directory: /home/enrui/CP2024_code/computational-physics/week6/build
+"UnitTests" start time: Apr 27 16:05 CST
 Output:
 ----------------------------------------------------------
-Randomness seeded to: 2618739560
+Randomness seeded to: 1713916458
 ===============================================================================
 All tests passed (13 assertions in 3 test cases)
 
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"UnitTests" end time: Apr 01 02:46 CST
+"UnitTests" end time: Apr 27 16:05 CST
 "UnitTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 01 02:46 CST
+End testing: Apr 27 16:05 CST

@@ -1,8 +1,8 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o: \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/internal/catch_list.cpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/internal/catch_list.cpp \
  /usr/include/stdc-predef.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_list.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_list.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -138,24 +138,24 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o: \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_reporter.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/catch_section_info.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_source_line_info.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/catch_totals.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/catch_assertion_result.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/catch_assertion_info.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_result_type.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_lazy_expr.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_message_info.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_capture.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_reporter.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/catch_section_info.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_source_line_info.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/catch_totals.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/catch_assertion_result.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/catch_assertion_info.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_result_type.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_lazy_expr.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_message_info.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_capture.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_estimate.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_outlier_classification.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_estimate.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_outlier_classification.hpp \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/tuple /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/array \
@@ -166,23 +166,23 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_reporter_registry.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_insensitive_comparisons.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_testcase.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_reporter_factory.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_context.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/catch_config.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/catch_test_spec.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_wildcard_pattern.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_sensitive.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_config.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_optional.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_random_seed_generation.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_reporter_spec_parser.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_console_colour.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/catch_test_case_info.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_registry.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_name.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_counter.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_preprocessor_remove_parens.hpp
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_reporter_registry.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_insensitive_comparisons.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_testcase.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_reporter_factory.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_context.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/catch_config.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/catch_test_spec.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_wildcard_pattern.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_sensitive.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_config.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_optional.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_random_seed_generation.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_reporter_spec_parser.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_console_colour.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/catch_test_case_info.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_registry.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_name.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_counter.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_preprocessor_remove_parens.hpp

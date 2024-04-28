@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cubictest.dir/utils/cubictest.cpp.o -o cubictest  _deps/catch2-build/src/libCatch2Main.a _deps/catch2-build/src/libCatch2.a 

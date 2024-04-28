@@ -1,8 +1,8 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o: \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp \
  /usr/include/stdc-predef.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
  /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -16,7 +16,7 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
  /usr/include/c++/11/pstl/pstl_config.h /usr/include/assert.h \
  /usr/include/c++/11/type_traits \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
  /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h \
  /usr/include/c++/11/bits/char_traits.h \

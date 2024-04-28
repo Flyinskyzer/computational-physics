@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/enrui/CP2024_code/computational-physics/cpp/.
+CXX_INCLUDES = -I/home/enrui/CP2024_code/computational-physics/week6/.
 
 CXX_FLAGS = -Wall -Wextra -std=gnu++14
 

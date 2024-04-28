@@ -1,7 +1,7 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o: \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp \
  /usr/include/stdc-predef.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_startup_exception_registry.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_startup_exception_registry.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -48,7 +48,7 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_excep
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
- /home/enrui/CP2024_code/computational-physics/cpp/build/generated-includes/catch2/catch_user_config.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/build/generated-includes/catch2/catch_user_config.hpp \
  /usr/include/c++/11/cstddef

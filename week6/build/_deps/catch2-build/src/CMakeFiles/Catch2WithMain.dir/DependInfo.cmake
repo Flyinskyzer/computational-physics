@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp" "_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o" "gcc" "_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o.d"
+  "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp" "_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o" "gcc" "_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/DependInfo.cmake"
+  "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

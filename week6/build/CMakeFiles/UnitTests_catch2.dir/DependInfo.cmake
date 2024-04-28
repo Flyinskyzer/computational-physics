@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/enrui/CP2024_code/computational-physics/cpp/isingsquaretest.cpp" "CMakeFiles/UnitTests_catch2.dir/isingsquaretest.cpp.o" "gcc" "CMakeFiles/UnitTests_catch2.dir/isingsquaretest.cpp.o.d"
+  "/home/enrui/CP2024_code/computational-physics/week6/isingsquaretest.cpp" "CMakeFiles/UnitTests_catch2.dir/isingsquaretest.cpp.o" "gcc" "CMakeFiles/UnitTests_catch2.dir/isingsquaretest.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/DependInfo.cmake"
-  "/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/DependInfo.cmake"
+  "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/DependInfo.cmake"
+  "/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

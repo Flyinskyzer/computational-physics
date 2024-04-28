@@ -1,7 +1,7 @@
 CMakeFiles/a.out.dir/main.cpp.o: \
- /home/enrui/CP2024_code/computational-physics/cpp/main.cpp \
+ /home/enrui/CP2024_code/computational-physics/week6/main.cpp \
  /usr/include/stdc-predef.h \
- /home/enrui/CP2024_code/computational-physics/cpp/ising.hpp \
+ /home/enrui/CP2024_code/computational-physics/week6/ising.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

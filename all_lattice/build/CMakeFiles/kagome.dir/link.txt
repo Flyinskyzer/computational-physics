@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/kagome.dir/kagome.cpp.o -o kagome 

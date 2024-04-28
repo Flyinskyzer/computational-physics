@@ -1,0 +1,5 @@
+isingsquaretest 13 0.000461314
+kagometest 13 0.000673939
+cubictest 4 0.00173608
+honeytest 1 0.00846434
+---

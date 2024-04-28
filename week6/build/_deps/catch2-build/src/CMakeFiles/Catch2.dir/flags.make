@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src/src/catch2/.. -I/home/enrui/CP2024_code/computational-physics/cpp/build/generated-includes
+CXX_INCLUDES = -I/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src/src/catch2/.. -I/home/enrui/CP2024_code/computational-physics/week6/build/generated-includes
 
-CXX_FLAGS = -ffile-prefix-map=/home/enrui/CP2024_code/computational-physics/cpp/build/_deps/catch2-src=.
+CXX_FLAGS = -ffile-prefix-map=/home/enrui/CP2024_code/computational-physics/week6/build/_deps/catch2-src=.
 
