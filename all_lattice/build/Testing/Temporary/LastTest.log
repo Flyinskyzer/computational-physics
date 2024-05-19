@@ -1,13 +1,13 @@
-Start testing: Apr 28 22:07 CST
+Start testing: May 20 05:45 CST
 ----------------------------------------------------------
-1/4 Testing: isingsquaretest
-1/4 Test: isingsquaretest
+1/5 Testing: isingsquaretest
+1/5 Test: isingsquaretest
 Command: "/home/enrui/CP2024_code/computational-physics/all_lattice/build/isingsquaretest"
 Directory: /home/enrui/CP2024_code/computational-physics/all_lattice/build
-"isingsquaretest" start time: Apr 28 22:07 CST
+"isingsquaretest" start time: May 20 05:45 CST
 Output:
 ----------------------------------------------------------
-Randomness seeded to: 1567426102
+Randomness seeded to: 1014963505
 ===============================================================================
 All tests passed (13 assertions in 3 test cases)
 
@@ -15,18 +15,18 @@ All tests passed (13 assertions in 3 test cases)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"isingsquaretest" end time: Apr 28 22:07 CST
+"isingsquaretest" end time: May 20 05:45 CST
 "isingsquaretest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/4 Testing: kagometest
-2/4 Test: kagometest
+2/5 Testing: kagometest
+2/5 Test: kagometest
 Command: "/home/enrui/CP2024_code/computational-physics/all_lattice/build/kagometest"
 Directory: /home/enrui/CP2024_code/computational-physics/all_lattice/build
-"kagometest" start time: Apr 28 22:07 CST
+"kagometest" start time: May 20 05:45 CST
 Output:
 ----------------------------------------------------------
-Randomness seeded to: 975483940
+Randomness seeded to: 1801876416
 ===============================================================================
 All tests passed (48 assertions in 5 test cases)
 
@@ -34,18 +34,18 @@ All tests passed (48 assertions in 5 test cases)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"kagometest" end time: Apr 28 22:07 CST
+"kagometest" end time: May 20 05:45 CST
 "kagometest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/4 Testing: cubictest
-3/4 Test: cubictest
+3/5 Testing: cubictest
+3/5 Test: cubictest
 Command: "/home/enrui/CP2024_code/computational-physics/all_lattice/build/cubictest"
 Directory: /home/enrui/CP2024_code/computational-physics/all_lattice/build
-"cubictest" start time: Apr 28 22:07 CST
+"cubictest" start time: May 20 05:45 CST
 Output:
 ----------------------------------------------------------
-Randomness seeded to: 1107988562
+Randomness seeded to: 796877250
 ===============================================================================
 All tests passed (15 assertions in 3 test cases)
 
@@ -53,18 +53,18 @@ All tests passed (15 assertions in 3 test cases)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"cubictest" end time: Apr 28 22:07 CST
+"cubictest" end time: May 20 05:45 CST
 "cubictest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/4 Testing: honeytest
-4/4 Test: honeytest
+4/5 Testing: honeytest
+4/5 Test: honeytest
 Command: "/home/enrui/CP2024_code/computational-physics/all_lattice/build/honeytest"
 Directory: /home/enrui/CP2024_code/computational-physics/all_lattice/build
-"honeytest" start time: Apr 28 22:07 CST
+"honeytest" start time: May 20 05:45 CST
 Output:
 ----------------------------------------------------------
-Randomness seeded to: 196735403
+Randomness seeded to: 2650109414
 ===============================================================================
 All tests passed (28 assertions in 4 test cases)
 
@@ -72,8 +72,27 @@ All tests passed (28 assertions in 4 test cases)
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"honeytest" end time: Apr 28 22:07 CST
+"honeytest" end time: May 20 05:45 CST
 "honeytest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 28 22:07 CST
+5/5 Testing: square_MC_test
+5/5 Test: square_MC_test
+Command: "/home/enrui/CP2024_code/computational-physics/all_lattice/build/square_MC_test"
+Directory: /home/enrui/CP2024_code/computational-physics/all_lattice/build
+"square_MC_test" start time: May 20 05:45 CST
+Output:
+----------------------------------------------------------
+Randomness seeded to: 4118499722
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
+<end of output>
+Test time =  45.92 sec
+----------------------------------------------------------
+Test Passed.
+"square_MC_test" end time: May 20 05:45 CST
+"square_MC_test" time elapsed: 00:00:45
+----------------------------------------------------------
+
+End testing: May 20 05:45 CST

@@ -19,7 +19,7 @@ private:
      uniform_int_distribution<>DistUnifState;
 
 public:
-   RandomNumberGenerator(const int seed_spec,const int n_spins_spec=0):seed_init(seed_spec),
+   RandomNumberGenerator(int seed_spec,const int n_spins_spec=0):seed_init(seed_spec),
    RndEngine(seed_init),DistUnif01(0.0,1.0),
    DistUnifSite(0,n_spins_spec-1),
    DistUnifState(0,static_cast<long long>(pow(2,n_spins_spec)-1)){};
@@ -48,8 +48,8 @@ public:
    vector<double> ms; 
    vector<double> m2s;
    Isingsystem_square lattice;
-   MC(int n,double T_spec,double Tmax_spec,int the_spec,int total_spec):
-   lattice({n,n}),T(T_spec),Tmax(Tmax_spec),mcs_thermalization(the_spec),mcs_total(total_spec),randnum(123456890,n*n),
+   MC(int n,double T_spec,double Tmax_spec,int the_spec,int total_spec,int ran):
+   lattice({n,n}),T(T_spec),Tmax(Tmax_spec),mcs_thermalization(the_spec),mcs_total(total_spec),randnum(ran,n*n),
    mcs_samples(),hs(),ms(),m2s()
    {
      beta=1/T;
@@ -175,6 +175,13 @@ private:
     int bin_gap;//bin间隔
     int bin_start;
     int n_bins;//bin个数
+    double h_average=0;//平均值
+    double h_sigama=0;//标准差
+    double m_average=0;//平均值
+    double m_sigama=0;//标准差
+    double m2_average=0;//平均值
+    double m2_sigama=0;//标准差
+
     vector<double> aver_bin_h;
     double aver_h;
     double error_h;
@@ -188,8 +195,8 @@ private:
     double error_m2;
 public:
     observe_sta(int n,double T_spec,double Tmax_spec,int the_spec,int total_spec,
-    int bin_start_spec,int bin_size_spec,int bin_gap_spec,int n_bins_spec)
-    :MC(n,T_spec,Tmax_spec,the_spec,total_spec),
+    int bin_start_spec,int bin_size_spec,int bin_gap_spec,int n_bins_spec,int ran)
+    :MC(n,T_spec,Tmax_spec,the_spec,total_spec,ran),
     bin_start(bin_start_spec),bin_size(bin_size_spec),bin_gap(bin_gap_spec),n_bins(n_bins_spec),
     aver_bin_h(),aver_bin_m(),aver_bin_m2()
     {aver_h=0;error_h=0;aver_m=0;error_m=0;aver_m2=0;error_m2=0;};
@@ -205,12 +212,74 @@ public:
             h_bin=h_bin/bin_size;
             m_bin=m_bin/bin_size;
             m2_bin=m2_bin/bin_size;
-            cout<<i<<" "<<h_bin<<" "<<m_bin<<" "<<m2_bin<<endl;
+            //cout<<i<<" "<<h_bin<<" "<<m_bin<<" "<<m2_bin<<endl;
             aver_bin_h.push_back(h_bin);
             aver_bin_m.push_back(m_bin);
             aver_bin_m2.push_back(m2_bin);
         }
     }
+    void cal_h_average(){
+      double a=0;
+      for(int i=0;i<n_bins;i++){
+         a=a+aver_bin_h[i];
+      }
+      a=a/n_bins;
+      h_average=a;
+    }
+    void cal_h_sigama(){
+      double s2=0;
+      for(int i=0;i<n_bins;i++){
+         s2=s2+pow((aver_bin_h[i]-h_average),2);
+      }
+      s2=s2/(n_bins-1);
+      h_sigama=sqrt(s2);
+    }
+    void cal_m_average(){
+      double a=0;
+      for(int i=0;i<n_bins;i++){
+         a=a+aver_bin_m[i];
+      }
+      a=a/n_bins;
+      m_average=a;
+    }
+    void cal_m_sigama(){
+      double s2=0;
+      for(int i=0;i<n_bins;i++){
+         s2=s2+pow((aver_bin_m[i]-m_average),2);
+      }
+      s2=s2/(n_bins-1);
+      m_sigama=sqrt(s2);
+    }
+    void cal_m2_average(){
+      double a=0;
+      for(int i=0;i<n_bins;i++){
+         a=a+aver_bin_m2[i];
+      }
+      a=a/n_bins;
+      m2_average=a;
+    }
+    void cal_m2_sigama(){
+      double s2=0;
+      for(int i=0;i<n_bins;i++){
+         s2=s2+pow((aver_bin_m2[i]-m2_average),2);
+      }
+      s2=s2/(n_bins-1);
+      m2_sigama=sqrt(s2);
+    }
+    void calculate(){
+      cal_h_average();
+      cal_h_sigama();
+      cal_m_average();
+      cal_m_sigama();
+      cal_m2_average();
+      cal_m2_sigama();
+    }
+    double _h_average(){ return h_average;};
+    double _h_sigama(){ return h_sigama;};
+    double _m_average(){ return m_average;};
+    double _m_sigama(){ return m_sigama;};
+    double _m2_average(){ return m2_average;};
+    double _m2_sigama(){ return m2_sigama;};
 };
 //3 2 8 0 1000000 20000 800 200 80
 #endif

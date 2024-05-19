@@ -38,3 +38,8 @@ add_executable(honeytest utils/honeytest.cpp)
 target_compile_options(honeytest PRIVATE -Wall -Wextra)
 target_link_libraries(honeytest Catch2::Catch2WithMain)
 add_test(honeytest honeytest)
+
+add_executable(square_MC_test square_MC_test.cpp)
+target_compile_options(square_MC_test PRIVATE -Wall -Wextra)
+target_link_libraries(square_MC_test Catch2::Catch2WithMain)
+add_test(square_MC_test square_MC_test)

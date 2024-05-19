@@ -20,7 +20,7 @@ jobs: # A workflow run is made up of one or more jobs, which run in parallel
       run: |
           mkdir build
           cd build
-          cmake ../week6
+          cmake ../all_lattice
 
     - name: Build
       working-directory: build

@@ -6,6 +6,7 @@
 /home/enrui/CP2024_code/computational-physics/all_lattice/build/CMakeFiles/kagometest.dir
 /home/enrui/CP2024_code/computational-physics/all_lattice/build/CMakeFiles/cubictest.dir
 /home/enrui/CP2024_code/computational-physics/all_lattice/build/CMakeFiles/honeytest.dir
+/home/enrui/CP2024_code/computational-physics/all_lattice/build/CMakeFiles/square_MC_test.dir
 /home/enrui/CP2024_code/computational-physics/all_lattice/build/CMakeFiles/package.dir
 /home/enrui/CP2024_code/computational-physics/all_lattice/build/CMakeFiles/package_source.dir
 /home/enrui/CP2024_code/computational-physics/all_lattice/build/CMakeFiles/test.dir

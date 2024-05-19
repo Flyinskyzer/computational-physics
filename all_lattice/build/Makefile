@@ -296,6 +296,19 @@ honeytest/fast:
 .PHONY : honeytest/fast
 
 #=============================================================================
+# Target rules for targets named square_MC_test
+
+# Build rule for target.
+square_MC_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 square_MC_test
+.PHONY : square_MC_test
+
+# fast build rule for target.
+square_MC_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square_MC_test.dir/build.make CMakeFiles/square_MC_test.dir/build
+.PHONY : square_MC_test/fast
+
+#=============================================================================
 # Target rules for targets named Catch2
 
 # Build rule for target.
@@ -416,6 +429,30 @@ square.s: square.cpp.s
 square.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/square.cpp.s
 .PHONY : square.cpp.s
+
+square_MC_test.o: square_MC_test.cpp.o
+.PHONY : square_MC_test.o
+
+# target to build an object file
+square_MC_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square_MC_test.dir/build.make CMakeFiles/square_MC_test.dir/square_MC_test.cpp.o
+.PHONY : square_MC_test.cpp.o
+
+square_MC_test.i: square_MC_test.cpp.i
+.PHONY : square_MC_test.i
+
+# target to preprocess a source file
+square_MC_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square_MC_test.dir/build.make CMakeFiles/square_MC_test.dir/square_MC_test.cpp.i
+.PHONY : square_MC_test.cpp.i
+
+square_MC_test.s: square_MC_test.cpp.s
+.PHONY : square_MC_test.s
+
+# target to generate assembly for a file
+square_MC_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square_MC_test.dir/build.make CMakeFiles/square_MC_test.dir/square_MC_test.cpp.s
+.PHONY : square_MC_test.cpp.s
 
 utils/cubictest.o: utils/cubictest.cpp.o
 .PHONY : utils/cubictest.o
@@ -538,6 +575,7 @@ help:
 	@echo "... kagome"
 	@echo "... kagometest"
 	@echo "... square"
+	@echo "... square_MC_test"
 	@echo "... cubic.o"
 	@echo "... cubic.i"
 	@echo "... cubic.s"
@@ -550,6 +588,9 @@ help:
 	@echo "... square.o"
 	@echo "... square.i"
 	@echo "... square.s"
+	@echo "... square_MC_test.o"
+	@echo "... square_MC_test.i"
+	@echo "... square_MC_test.s"
 	@echo "... utils/cubictest.o"
 	@echo "... utils/cubictest.i"
 	@echo "... utils/cubictest.s"
