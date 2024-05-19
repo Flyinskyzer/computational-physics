@@ -1,6 +1,6 @@
-isingsquaretest 23 0.000302904
-kagometest 23 0.000311575
-cubictest 23 0.00029566
-honeytest 23 0.000587884
-square_MC_test 5 9.18337
+isingsquaretest 24 0.000233406
+kagometest 24 0.000388717
+cubictest 24 0.000436302
+honeytest 24 0.000531498
+square_MC_test 6 8.27591
 ---
