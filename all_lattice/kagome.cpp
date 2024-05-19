@@ -23,7 +23,7 @@ int main()
     vector<double> energy_eve_state=kagome._h();
     vector<double> monmentum_eve_state=kagome._m();
 
-    observe H(energy_eve_state,T);
+    observe H(energy_eve_state,energy_eve_state,T);
     H.aver_everytemper();
     H.aver_everylattice(n*n*m);
     EdivN=H._q_aver();
@@ -31,11 +31,15 @@ int main()
     EdivN4=H._q4_aver();
     CdivN=H._c_aver();
 
-    observe M(monmentum_eve_state,T);
+    observe M(monmentum_eve_state,energy_eve_state,T);
     M.aver_everytemper();
     M.aver_everylattice(n*n*m);
     MdivN=M._q_aver();
     MdivN2=M._q2_aver();
     MdivN4=M._q4_aver();
     U=M._u_aver();
+
+    for(int i=0;i<EdivN.size();i++){
+        cout<<EdivN[i]<<" "<<MdivN[i]<<" "<<MdivN2[i]<<endl;
+    }
 }

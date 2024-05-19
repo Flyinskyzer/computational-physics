@@ -143,6 +143,10 @@ public:
    //返回units中的某个unit中的某个spin的状态
    int _spin_state(const int site_idx,const int j) {return units[site_idx]._unit_spinstate(j);};
    //设置整个units的状态
+
+   void _flip(int unit_spec,int spin_spec){
+    units[unit_spec].unit_flip(spin_spec);
+   }//翻转某个spin
    void set_unitstate_in_total(long long rep_state){
     int i=0;
     for(int j=0;j<=n_units-1;j++){
@@ -302,6 +306,13 @@ public:
         cout<<endl;
     }
    };
+
+   int _sz_on_kagome(int unit_spec,int spin_spec)
+   {
+    return units[unit_spec]._unit_spinstate(spin_spec);
+   }
+
+   int _n_units(){return n_units;};
 
    double energy_eval(){
     double H=0;

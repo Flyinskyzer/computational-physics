@@ -44,7 +44,7 @@ class IsingSystem
         {
             spin.resize(n_spins);//vector的重新调整数组大小的函数，就是定义了有几个点
         };
-        virtual ~IsingSystem() {};//西沟函数？这个沙没有也可以，不知道了
+         ~IsingSystem() {};//西沟函数？这个沙没有也可以，不知道了
 
 
     double _J() const { return J; };//const函数定义参数，表明函数只能进行读取操作，不能进行写操作，就是相当于通过函数访问类中的私有成员？
@@ -106,7 +106,7 @@ class isingspin_honey_unit//晶格单位，两个粒子，新定义类
 
     public:
     isingspin_honey_unit() {unitspin.resize(2);};//初始化大小为2,因为蜂窝的单位里面就两个
-    ~isingspin_honey_unit() {};
+    virtual ~isingspin_honey_unit() {};
 
     int unit_sz_i(const int unit_idx)const {return unitspin[unit_idx]._sz();};
     int unit_mz() {return unitspin[0]._sz()+unitspin[1]._sz();}//单位里面的总磁场;
@@ -144,7 +144,7 @@ class isingspin_honey_onlattice : public isingspin_honey_unit//以单元为节�
         set_dim(1);
         NN={0};
     }
-    ~isingspin_honey_onlattice(){};
+    ~isingspin_honey_onlattice() override {};
     void set_dim(int dim){position.assign(dim,0);};
     vector<int> _position ()const { return position;}
     vector<int> _NN() const {return NN;}
@@ -227,7 +227,7 @@ class ising_system_honey: public Isingsystem_honey
         for (auto &each : s_size) n_s *= each;
         return n_s;
     }
-    ~ising_system_honey(){};
+     ~ising_system_honey(){};
  
     int site_index(vector <int> lattice_coordinate) const
     {

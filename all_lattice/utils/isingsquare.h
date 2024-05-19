@@ -210,6 +210,7 @@ public:
       for(int i=0;i<n_spins;i++){
             M=M+spin[i]._sz();
       }
+      //M=fabs(M);
       return M;
    }
    void calculate(){

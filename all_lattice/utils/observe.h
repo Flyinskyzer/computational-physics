@@ -6,7 +6,7 @@ using namespace std;
 class observe
 {
 private:
-    vector<double> q;
+    vector<double> q,h;
     double Tup;//最高温度
     vector<double> T;//不同温度
     int n;//温度数
@@ -15,8 +15,8 @@ private:
     vector<double> q_aver,q2_aver,q4_aver,c_aver,u_aver;//不同温度
 public:
     observe(){};
-    observe(vector<double>q_spec,double tup):q(q_spec),Tup(tup){
-        for(double i=0.05;i<=Tup;i++){
+    observe(vector<double>q_spec,vector<double>h_spec,double tup):q(q_spec),Tup(tup),h(h_spec){
+        for(double i=0.05;i<=Tup;i=i+0.05){
             T.push_back(i);
         }
         n=T.size();
@@ -36,17 +36,16 @@ public:
 
             for(long long j=0;j<num;j++)
             {
-                z=z+exp(-(q[j]-q[0])/(k*T[i]));
-                Q=Q+q[j]*exp(-(q[j]-q[0])/(k*T[i]));
-                Q2=Q2+q[j]*q[j]*exp(-(q[j]-q[0])/(k*T[i]));
-                Q4=Q4+q[j]*q[j]*q[j]*q[j]*exp(-(q[j]-q[0])/(k*T[i]));
+                z=z+exp(-(h[j]-h[0])/(k*T[i]));
+                Q=Q+q[j]*exp(-(h[j]-h[0])/(k*T[i]));
+                Q2=Q2+q[j]*q[j]*exp(-(h[j]-h[0])/(k*T[i]));
+                Q4=Q4+q[j]*q[j]*q[j]*q[j]*exp(-(h[j]-h[0])/(k*T[i]));
             }
             Q=Q/z;
             Q2=Q2/z;
             Q4=Q4/z;
             C=(Q2-Q*Q)/(T[i]*T[i]);
             U=Q4/(Q2*Q2);
-
 
             q_aver.push_back(Q);
             q2_aver.push_back(Q2);
@@ -56,13 +55,13 @@ public:
         }
     }
 
-    void aver_everylattice(int n)//输入晶格数
+    void aver_everylattice(int s)//输入晶格数
     {
         for(int i=0;i<n;i++){
-            q_aver[i]=q_aver[i]/n;
-            c_aver[i]=c_aver[i]/n;
-            q2_aver[i]=q2_aver[i]/(n*n);
-            q4_aver[i]=q4_aver[i]/pow(n,4);
+            q_aver[i]=q_aver[i]/s;
+            c_aver[i]=c_aver[i]/s;
+            q2_aver[i]=q2_aver[i]/(s*s);
+            q4_aver[i]=q4_aver[i]/pow(s,4);
         }
     }
 
